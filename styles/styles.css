@@ -1,0 +1,38 @@
+*{
+	box-sizing: border=box;
+}
+
+.align-children{
+	font-size: 0;
+}
+
+.align-chilodren > * {
+	font-size: medium;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.container{
+	width: 800px;
+}
+
+.topSection{
+	max-width: 100%;
+	height: 100px;
+	background: black;
+	border: 3px dotted black;
+}
+
+.middleSection{
+	max-width: 100%;
+	height:720px;
+	background: radial-gradient(circle, #DFD8C2, black);
+	border: 3px dotted red;
+}
+
+.bottomSection{
+	max-width: 100%;
+	height: 100px;
+	background: black;
+	border: 3px dotted black;
+}
