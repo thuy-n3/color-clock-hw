@@ -12,27 +12,82 @@
 	vertical-align: top;
 }
 
-.container{
-	width: 800px;
+/*.container{
+	width: 600px;
 }
-
-.topSection{
+*/
+/*.topSection{
 	max-width: 100%;
 	height: 100px;
 	background: black;
 	border: 3px dotted black;
-}
+}*/
 
-.middleSection{
+.container{
 	max-width: 100%;
 	height:720px;
-	background: radial-gradient(circle, #DFD8C2, black);
+	/*background: radial-gradient(circle, #DFD8C2, black);*/
+	background-color: #DFD8C2;
 	border: 3px dotted red;
 }
 
-.bottomSection{
+/*.clockBox{
+	width: 800px;
+	height: 100px;
+	border: 3px dotted red;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -20px;
+	margin-left: -200px;
+
+}*/
+
+#clock{
+	height: 100px;
+	width: 100%;
+/*	margin: 60px auto;*/
+	position: absolute;
+	top: 55%;
+	left: 0;
+	/*bottom: 0;
+	right: 0;
+	padding-top: 70px;*/
+	font-family: courier;
+	text-align: center;
+	font-color: red;
+	font-size: 80px;
+	border: 3px solid green; /*need to remove*/
+	z-index: 2;
+
+}
+
+#clock:hover{
+	opacity: 0;
+
+}
+
+#hexColor{
+	font-size: 80px;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	z-index: 1;
+	display:none;
+	top:55%;
+	left:0;
+}
+
+#clock:hover ~ #hexColor{
+	display: block;
+}
+
+
+
+
+/*.bottomSection{
 	max-width: 100%;
 	height: 100px;
 	background: black;
 	border: 3px dotted black;
-}
+}*/
